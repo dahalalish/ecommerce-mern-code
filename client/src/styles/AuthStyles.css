@@ -1,0 +1,60 @@
+/*Register Page*/
+
+.form-container {
+  /* margin-top: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background-color: #ffdee9;
+  background: linear-gradient(
+    180.3deg,
+    rgb(214, 224, 255) 37.2%,
+    rgb(254, 168, 168) 137.3%
+  );
+}
+
+.form-container form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #154c79;
+  font-weight: bold;
+  font-family: "Playfair", serif;
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: 1px solid #154c79;
+  border-radius: 0;
+}
+
+.form-container form button {
+  border: none;
+  border-radius: 0;
+  background: #154c79;
+  color: #fff;
+  width: 250px;
+}
+
+.form-container form button:hover {
+  border: none;
+  background: #000000;
+  background: -webkit-linear-gradient(to left, #09203f 0%, #537895 100%);
+  background: linear-gradient(to left, #09203f 0%, #537895 100%);
+}
+
+.forgot-btn {
+  background-color: #434343a4 !important;
+  border: 0 !important;
+}
+
+.forgot-btn:hover {
+  background-color: white !important;
+}

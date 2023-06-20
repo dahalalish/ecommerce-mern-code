@@ -1,0 +1,39 @@
+.category {
+  color: #154c79;
+  flex-wrap: wrap;
+  margin-top: 100px !important;
+}
+.category .card {
+  background-color: #154c79;
+  color: #fff;
+  width: 18rem;
+}
+.category .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category .card-price {
+  color: #c7c9c9;
+  font-weight: bold;
+}
+.category button {
+  border-radius: 5px;
+  width: 100%;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.category .card-text {
+  color: #bec2c1;
+}
+
+.category .card img:hover {
+  transform: scale(0.9);
+}
+
+.category .card-img-top {
+  height: 300px !important;
+}
